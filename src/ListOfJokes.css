@@ -1,0 +1,83 @@
+.ListOfJokes {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ListOfJokes-sidebar{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #9575cd;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0, 0, 0.3),
+        inset 0 0 25px #7e57c2;
+        z-index: 2;
+}
+.ListOfJokes-sidebar h1 {
+    font-size: 4rem;
+    margin: 2rem;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.6rem;
+}
+
+.ListOfJokes-sidebar h1 span{
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.ListOfJokes-sidebar img {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    border-radius: 100%;
+    box-shadow: 0  19px 38px rgba(0, 0, 0, 0.3), 0  15px 12px rgba(0, 0, 0, 0.1) ;
+}
+
+.ListOfJokes-sidebar button {
+    width: 50%;
+    height: 50px;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0  17px 10px -10px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(
+      to bottom right,
+          LightSkyBlue 0%,
+          LightSkyBlue  50%,
+          HotPink 50%,
+          HotPink 0%
+    );
+    cursor: pointer;
+    transition: 0.8s ease;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.ListOfJokes-jokes {
+    height: 90%;
+    width: 70%;
+    background: white;
+    align-self: center;
+    overflow-y: scroll;
+    box-shadow: 0px 19px 38px rgba(0,0,0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.JokeList-spinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hotpink;
+    margin-top: 100px;
+}
